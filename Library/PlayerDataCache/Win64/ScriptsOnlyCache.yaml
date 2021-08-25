@@ -9,6 +9,8 @@ ScriptsOnlyBuild:
     - JumpScareScript3
     - JumpScareScript4
     - KeypadScript
+    - LightSwitch
+    - Lights_Off_Jumpscare
     - LockControl
     - LockInteract
     - RiddleInput
@@ -84,51 +86,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 1594}
+      Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 1860}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 2192}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2540}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2626}
+      Script: {instanceID: 2624}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2900}
     - Class: 114
-      Script: {instanceID: 3076}
+      Script: {instanceID: 3074}
+    - Class: 114
+      Script: {instanceID: 3186}
     - Class: 114
       Script: {instanceID: 3188}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 3494}
     - Class: 114
-      Script: {instanceID: 3496}
+      Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 3846}
+      Script: {instanceID: 3712}
     - Class: 114
-      Script: {instanceID: 4370}
+      Script: {instanceID: 3848}
     - Class: 114
-      Script: {instanceID: 4552}
+      Script: {instanceID: 4372}
     - Class: 114
-      Script: {instanceID: 4616}
+      Script: {instanceID: 4554}
     - Class: 114
-      Script: {instanceID: 4674}
+      Script: {instanceID: 4618}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 41002}
+      Script: {instanceID: 4930}
     - Class: 114
-      Script: {instanceID: 102924}
+      Script: {instanceID: 21026}
+    - Class: 114
+      Script: {instanceID: 36706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -646,6 +652,12 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
+      Hash: 59f34faaa847909600ceb55e86d607b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BookshelfMove
+  - hash:
+      serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -656,6 +668,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 2116045f813c033922a986ded1a25b5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BookInteract
   - hash:
       serializedVersion: 2
       Hash: e801db6d832904d3c83455d4a4422803
@@ -958,16 +976,16 @@ ScriptsOnlyBuild:
     className: GroundCheck
   - hash:
       serializedVersion: 2
-      Hash: 59f34faaa847909600ceb55e86d607b7
+      Hash: 24f4f35d6f74dc4963609ee432d9a9ae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BookshelfMove
+    className: LightSwitch
   - hash:
       serializedVersion: 2
-      Hash: 2116045f813c033922a986ded1a25b5f
+      Hash: e16f3e40bcb60380fc06b709e78cf0ad
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BookInteract
+    className: Lights_Off_Jumpscare
   platform: 19
   scenePathNames:
   - Assets/Scenes/Playground.unity

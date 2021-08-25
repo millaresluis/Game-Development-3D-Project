@@ -45,7 +45,7 @@ public class BookshelfMove : MonoBehaviour
     {
         if (playerIsHere == true && obtain.obtain == false) ;
         {
-            Debug.Log("etst");
+            Debug.Log("test");
             Missing.SetActive(true);
         }
         playerIsHere = true;
