@@ -661,9 +661,11 @@ m_PackageAssets:
         - 1.1.24
         - 1.1.26
         - 1.1.27
+        - 1.1.29
         compatible:
         - 1.1.27
-        verified: 1.1.27
+        - 1.1.29
+        verified: 1.1.29
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -945,6 +947,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -965,6 +968,7 @@ m_PackageAssets:
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
