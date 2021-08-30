@@ -17,6 +17,7 @@ ScriptsOnlyBuild:
     - LockInteract
     - RiddleInput
     - Rotate
+    - TwoManDoor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -128,19 +129,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3718}
     - Class: 114
-      Script: {instanceID: 3854}
+      Script: {instanceID: 3736}
     - Class: 114
-      Script: {instanceID: 4378}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4560}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 4624}
+      Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 4682}
+      Script: {instanceID: 4626}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4684}
     - Class: 114
-      Script: {instanceID: 19052}
+      Script: {instanceID: 4938}
+    - Class: 114
+      Script: {instanceID: 19176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -706,6 +709,12 @@ ScriptsOnlyBuild:
     className: timer
   - hash:
       serializedVersion: 2
+      Hash: d15bde586ac129131b1c55aa4199b48c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DollFacingPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1000,10 +1009,10 @@ ScriptsOnlyBuild:
     className: GroundCheck
   - hash:
       serializedVersion: 2
-      Hash: d15bde586ac129131b1c55aa4199b48c
+      Hash: 5fbdcfe7e78d69905a7bc100418cf96c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DollFacingPlayer
+    className: TwoManDoor
   platform: 19
   scenePathNames:
   - Assets/Scenes/Playground.unity
