@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BookshelfMove : MonoBehaviour
 {
+
+    //required game objects
     public GameObject movingDoor;
-
     public float maximumOpening = 20f;
-
-    public BookInteract obtain;
+    public Book_Interact obtain;
     public float movementSpeed = 5f;
     public GameObject Text;
     public GameObject Missing;
@@ -21,7 +21,7 @@ public class BookshelfMove : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // condition if triggered
     void Update()
     {
         if (playerIsHere && obtain.obtain == true)
@@ -41,6 +41,8 @@ public class BookshelfMove : MonoBehaviour
 
     }
 
+
+    //trigger function
     private void OnTriggerEnter()
     {
         if (playerIsHere == true && obtain.obtain == false) ;

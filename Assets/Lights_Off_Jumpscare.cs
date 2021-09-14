@@ -6,7 +6,7 @@ public class Lights_Off_Jumpscare : MonoBehaviour
 {
     public AudioSource Hit_stress;
     public GameObject EnemyObject;
-    public LightSwitch status;
+    public Light_Switch status;
 
     void OnTriggerEnter()
     {

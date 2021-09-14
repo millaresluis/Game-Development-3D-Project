@@ -20,13 +20,7 @@ public class TwoManDoor : MonoBehaviour
         text.SetActive(false);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    // requires player to hold a certain button to open the door
     void Update()
     {
         if (Input.GetButton("Fire1") && onTrigger == true)
